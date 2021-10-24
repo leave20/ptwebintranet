@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CoreModule } from './core/core.module';
 import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavegationComponent } from './layout/navegation/navegation.component';
@@ -18,7 +17,6 @@ import { NavegationComponent } from './layout/navegation/navegation.component';
   ],
   imports: [
     BrowserModule,
-    CoreModule,
     AppRoutingModule
   ],
   providers: [

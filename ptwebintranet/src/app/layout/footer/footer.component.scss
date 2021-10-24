@@ -1,0 +1,13 @@
+$bgcolor: #222;
+$textcolor: darkblue;
+$fontsize: 18px;
+
+
+footer{
+  background: $bgcolor;
+  color: $textcolor;
+  font-size: $fontsize;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}

@@ -1,0 +1,101 @@
+$titlecolor: #ffffff;
+$bg: linear-gradient(to right top, #1d2737, #112545, #072151, #0a1b5b, #1b1062);
+header::before{
+  content: '';
+  background: $bg;
+  filter: opacity(0.5);
+  height: 95vh;
+  width: 99.98%;
+  overflow: hidden;
+  position: absolute;
+
+}
+
+header{
+  background-image: url(../../../assets/5-lugares-turisticos-de-Peru-para-visitar.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: -110px;
+  height: 90vh;
+  width: 99.98%;
+  position: relative;
+  overflow: hidden;
+
+nav{
+  position: relative;
+  top: 20px;
+  display: flex;
+  justify-content: space-around;
+  color: $titlecolor;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 5px;
+  z-index: 1; 
+.nv{
+  width: 40%;
+display: flex;
+justify-content: space-around;
+color: #AAAAAA;
+font-size: 1.1rem;
+  
+  
+}
+button{
+  background: #9999;
+  border-radius: 3px;
+  color: $titlecolor;
+  padding: 8px 16px 8px 16px;
+  width: 130px;
+} 
+
+}
+.card{
+  position: absolute;
+  top: 50%;
+  margin-left: 5%;
+  color: $titlecolor;
+  font-family: 'Roboto', sans-serif;
+  
+h3{
+  width: 380px;
+  font-weight: 600;
+  font-size: 1.6em;
+  padding: 8px;
+}
+
+p{
+  width: 480px;
+  font-weight: 100;
+  font-size: 1.3em;
+  padding: 8px;
+  color: #AAAAAA;
+}
+
+button{
+  background: #ff7033;
+  border-radius: 3px;
+  color: $titlecolor;
+  width: 130px;
+  padding: 8px 16px 8px 16px;
+  position: relative;
+  margin-left: 10px;
+} 
+}
+
+}
+.lineas{
+color: $titlecolor;
+}
+.lineas::after{
+content:  url("./../../../assets/arrow-left-solid.svg");
+background: #ff7033;
+width: 30px;
+position: absolute;
+}
+.lineas::before{
+content: url("./../../../assets/arrow-right-solid.svg");
+background: #ff7033;
+width: 30px;
+position: absolute;
+}
